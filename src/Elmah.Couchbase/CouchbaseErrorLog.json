@@ -1,0 +1,6 @@
+﻿//view code for Elmah viewer.  Must be named "by_date" and located in design document named "errors" without the quotes.
+function (doc) {
+  if (doc.Exception) {
+  	emit(doc.Time, null);
+  }
+}
